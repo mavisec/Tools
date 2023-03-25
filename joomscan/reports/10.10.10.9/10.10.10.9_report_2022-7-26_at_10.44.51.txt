@@ -1,0 +1,100 @@
+
+[+] FireWall Detector
+[++] Firewall not detected
+
+[+] Detecting Joomla Version
+[++] ver 404
+
+
+[+] Core Joomla Vulnerability
+[++] Target Joomla core is not vulnerable
+
+[+] Checking apache info/status files
+[++] Readable info/status files are not found
+
+[+] admin finder
+[++] Admin page : http://10.10.10.9/admin/
+
+[+] Checking robots.txt existing
+[++] robots.txt is found
+path : http://10.10.10.9/robots.txt 
+
+Interesting path found from robots.txt
+http://10.10.10.9/misc/*.css$
+http://10.10.10.9/misc/*.css?
+http://10.10.10.9/misc/*.js$
+http://10.10.10.9/misc/*.js?
+http://10.10.10.9/misc/*.gif
+http://10.10.10.9/misc/*.jpg
+http://10.10.10.9/misc/*.jpeg
+http://10.10.10.9/misc/*.png
+http://10.10.10.9/modules/*.css$
+http://10.10.10.9/modules/*.css?
+http://10.10.10.9/modules/*.js$
+http://10.10.10.9/modules/*.js?
+http://10.10.10.9/modules/*.gif
+http://10.10.10.9/modules/*.jpg
+http://10.10.10.9/modules/*.jpeg
+http://10.10.10.9/modules/*.png
+http://10.10.10.9/profiles/*.css$
+http://10.10.10.9/profiles/*.css?
+http://10.10.10.9/profiles/*.js$
+http://10.10.10.9/profiles/*.js?
+http://10.10.10.9/profiles/*.gif
+http://10.10.10.9/profiles/*.jpg
+http://10.10.10.9/profiles/*.jpeg
+http://10.10.10.9/profiles/*.png
+http://10.10.10.9/themes/*.css$
+http://10.10.10.9/themes/*.css?
+http://10.10.10.9/themes/*.js$
+http://10.10.10.9/themes/*.js?
+http://10.10.10.9/themes/*.gif
+http://10.10.10.9/themes/*.jpg
+http://10.10.10.9/themes/*.jpeg
+http://10.10.10.9/themes/*.png
+http://10.10.10.9/includes/
+http://10.10.10.9/misc/
+http://10.10.10.9/modules/
+http://10.10.10.9/profiles/
+http://10.10.10.9/scripts/
+http://10.10.10.9/themes/
+http://10.10.10.9/CHANGELOG.txt
+http://10.10.10.9/cron.php
+http://10.10.10.9/INSTALL.mysql.txt
+http://10.10.10.9/INSTALL.pgsql.txt
+http://10.10.10.9/INSTALL.sqlite.txt
+http://10.10.10.9/install.php
+http://10.10.10.9/INSTALL.txt
+http://10.10.10.9/LICENSE.txt
+http://10.10.10.9/MAINTAINERS.txt
+http://10.10.10.9/update.php
+http://10.10.10.9/UPGRADE.txt
+http://10.10.10.9/xmlrpc.php
+http://10.10.10.9/admin/
+http://10.10.10.9/comment/reply/
+http://10.10.10.9/filter/tips/
+http://10.10.10.9/node/add/
+http://10.10.10.9/search/
+http://10.10.10.9/user/register/
+http://10.10.10.9/user/password/
+http://10.10.10.9/user/login/
+http://10.10.10.9/user/logout/
+http://10.10.10.9/?q=admin/
+http://10.10.10.9/?q=comment/reply/
+http://10.10.10.9/?q=filter/tips/
+http://10.10.10.9/?q=node/add/
+http://10.10.10.9/?q=search/
+http://10.10.10.9/?q=user/password/
+http://10.10.10.9/?q=user/register/
+http://10.10.10.9/?q=user/login/
+http://10.10.10.9/?q=user/logout/
+
+
+[+] Finding common backup files name
+[++] Backup files are not found
+
+[+] Finding common log files name
+[++] error log is not found
+
+[+] Checking sensitive config.php.x file
+[++] Readable config files are not found
